@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rupesh Tamaturi | Data Analyst</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #1e1e2f;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 60px 0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .hero-text {
+            flex: 1 1 500px;
+        }
+
+        .hero-text h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .hero-text h2 {
+            font-size: 20px;
+            font-weight: 400;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {
+            max-width: 600px;
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        .social-buttons {
+            margin-top: 15px;
+        }
+
+        .social-buttons a {
+            display: inline-block;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: 0.3s ease;
+        }
+
+        .email-btn {
+            background: #111827;
+            color: white;
+        }
+
+        .linkedin-btn {
+            background: #0a66c2;
+            color: white;
+        }
+
+        .instagram-btn {
+            background: #e1306c;
+            color: white;
+        }
+
+        .social-buttons a:hover {
+            opacity: 0.85;
+            transform: translateY(-2px);
+        }
+
+        .hero-image {
+            flex: 1 1 300px;
+            text-align: center;
+        }
+
+        .hero-image img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+        }
+
+        section {
+            padding: 70px 0;
+        }
+
+        .section-title {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .experience-item {
+            margin-bottom: 40px;
+        }
+
+        .experience-item h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        .experience-item span {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .experience-item ul {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .experience-item li {
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #444;
+        }
+
+        footer {
+            background: #111827;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 0;
+            font-size: 14px;
+        }
+
+        @media(max-width: 768px){
+            .hero {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 32px;
+            }
+
+            .hero-image img {
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container hero">
+        <div class="hero-text">
+            <h1>Rupesh Tamaturi</h1>
+            <h2>Data Analyst | Operational Analyst | Business Intelligence</h2>
+
+            <p>
+                I convert raw data into business clarity. With expertise in Python, SQL, Power BI, and Advanced Excel,
+                I build analytical solutions that reduce costs, improve forecasting accuracy, and optimize operational performance.
+            </p>
+
+            <div class="social-buttons">
+                <a href="mailto:rtamaturi@gmail.com" class="email-btn">Email Me</a>
+                <a href="https://www.linkedin.com/in/rupesh-tamaturi-1952553a4/" target="_blank" class="linkedin-btn">LinkedIn</a>
+                <a href="https://www.instagram.com/mynames_rt/" target="_blank" class="instagram-btn">Instagram</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="my-photo.jpeg" alt="Rupesh Tamaturi">
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="section-title">Core Expertise</div>
+        <div class="cards">
+            <div class="card">
+                <h3>Python & SQL Analytics</h3>
+                <p>Data manipulation, EDA, window functions, aggregations, ETL pipelines, and query optimization.</p>
+            </div>
+
+            <div class="card">
+                <h3>Business Intelligence & Dashboards</h3>
+                <p>Power BI & Excel dashboards transforming KPIs into executive-level insights.</p>
+            </div>
+
+            <div class="card">
+                <h3>Operational Performance Optimization</h3>
+                <p>Reduced costs by 15% and improved forecasting accuracy by 25% through structured data analysis.</p>
+            </div>
+
+            <div class="card">
+                <h3>Automation & Reporting</h3>
+                <p>Automated 10+ recurring reports saving 15+ hours per month in manual work.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="background:#ffffff;">
+    <div class="container">
+        <div class="section-title">Professional Experience</div>
+
+        <div class="experience-item">
+            <h3>Operations Analyst</h3>
+            <span>Lansbury Heritage Hotel, London | 2023 – 2025</span>
+            <ul>
+                <li>Reduced scheduling conflicts by 15% and improved staff utilization by 20%.</li>
+                <li>Built automated dashboards tracking RevPAR, occupancy, and satisfaction metrics.</li>
+                <li>Reduced food waste by 12% using predictive inventory modeling.</li>
+                <li>Identified £5,000 annual payroll cost savings through analysis.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="section-title">Education</div>
+        <div class="experience-item">
+            <h3>MSc Supply Chain Management</h3>
+            <span>Anglia Ruskin University, London | 2020 – 2022</span>
+        </div>
+        <div class="experience-item">
+            <h3>B.Tech Mechanical Engineering</h3>
+            <span>PVP Siddhartha Institute of Technology | 2016 – 2020</span>
+        </div>
+    </div>
+</section>
+
+<footer>
+    © 2026 Rupesh Tamaturi | Data Analyst Portfolio
+</footer>
+
+</body>
+</html>
